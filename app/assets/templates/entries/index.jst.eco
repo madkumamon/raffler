@@ -1,0 +1,28 @@
+<div class="masthead">
+  <h3>Raffler</h3>
+</div>
+
+<div class="name_holder">
+
+  <div class="alert alert-error">
+  </div>
+
+  <form id="new_entry">
+    <input type="text" name="name" id="new_entry_name">
+    <input type="submit" value="Add" class="btn btn-success">
+  </form>
+
+  <table class="table table-hover">
+    <thead>
+      <tr><th>List of names: </th></tr>
+    </thead>
+    <tbody id="entries">
+    </tbody>
+  </table>
+
+  <button id="draw" class="btn btn-danger">Show target<i class="icon-eye-open icon-white"></i></button>
+</div>
+<a href="https://github.com/sedzen">
+  <img alt="Search" border="0" class="dock-item" src="assets/github-16px.png" />
+  <span>Sedzen</span>
+</a>

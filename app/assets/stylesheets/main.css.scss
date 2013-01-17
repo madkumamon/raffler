@@ -1,0 +1,67 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #F5F5F5;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.container-narrow{
+  margin: 0 auto;
+  max-width: 700px;
+
+  .name_holder{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 19px 29px 29px;
+    .alert{
+      display: none;
+    }
+    table{
+      border-bottom: 1px solid #dddddd;
+      .target{
+        float:right;
+        background-color: rgb(252, 188, 188);
+        padding: 0 4px;
+        line-height: 24px;
+        border-radius: 4px;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.125) inset;
+      }
+    }
+    #new_entry{
+      margin: 20px 0;
+      #new_entry_name{
+        margin:0;
+        padding: 6px 6px;
+        width:250px;
+      }
+      .btn{
+        padding: 6px 18px;
+      }
+    }
+    button{
+      i{
+        margin: 2px 0 0 8px;
+      }
+    }
+  }
+
+  hr{
+    margin: 5px 0;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid white;
+  }
+}
+
+.copy{
+  background-image: image-url("github-16px.png");
+}
+
+.masthead{
+  color: #999999;
+}

@@ -1,0 +1,6 @@
+<td>
+  <%= @entry.get('name') %>
+  <% if @entry.get('target'): %>
+      <span class="target">TARGET</span>
+  <% end %>
+</td>
